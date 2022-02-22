@@ -31,7 +31,7 @@ parser.add_argument('--audio_dir_prediction', default='./demo_data/test', type=s
 #directory to save the denoise sound (prediction mode)
 parser.add_argument('--dir_save_prediction', default='./demo_data/save_predictions/', type=str)
 #Noisy sound file to denoise (prediction mode)
-parser.add_argument('--audio_input_prediction', default=['noisy_voice_long_t2.wav'], type=list)
+parser.add_argument('--audio_input_prediction', default='noisy_voice_long_t2.wav', type=str)
 #File name of sound output of denoise prediction
 parser.add_argument('--audio_output_prediction', default='denoise_t2.wav', type=str)
 # Sample rate chosen to read audio
