@@ -1,4 +1,3 @@
-import subprocess
 import os
 from queue import Queue
 from sys import stdout
